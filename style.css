@@ -16,7 +16,11 @@ li{
 ul{
   list-style-position: outside;
   padding: 0%;
-}/*
+}
+.pictureSize{
+  width: 200px;
+}
+/*
 .frame{
   background-color:#F8F5F2;
 }
