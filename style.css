@@ -1,4 +1,14 @@
 body{
   text-align: center;
-  display: flexbox;
+  background-color: #31a2ac;
+  color: #af1c1c;
+}
+li{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+ul{
+  list-style-position: outside;
+  padding: 0%;
 }
