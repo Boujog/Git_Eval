@@ -1,7 +1,9 @@
 body{
   text-align: center;
-  color: #af1c1c;
-  background-color: #2F2F28;
+  color: #EDB83D;
+  /*
+  background-color: #000B29;
+  */
 }
 h1{
 
@@ -14,10 +16,10 @@ li{
 ul{
   list-style-position: outside;
   padding: 0%;
+}/*
+.frame{
+  background-color:#F8F5F2;
 }
-main{
-  background-color: #F0EFFE;
-}
-header, footer{
-  background-color:#31a2ac;
-}
+.frameSection{
+  background-color: #D70026;
+} */
