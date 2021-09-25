@@ -1,12 +1,8 @@
 body{
   text-align: center;
   color: #EDB83D;
-  /*
   background-color: #000B29;
-  */
-}
-h1{
-
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 li{
   display: flex;
@@ -20,10 +16,16 @@ ul{
 .pictureSize{
   width: 200px;
 }
-/*
+/*////////////////////////// CLASS COLOR /////////////////////*/
 .frame{
-  background-color:#F8F5F2;
+  background-color:#;
 }
 .frameSection{
-  background-color: #D70026;
-} */
+  background-color: ;
+}
+p{
+  background-color: #345995;
+}
+h1,h2{
+  color: #CF5C36;
+}
