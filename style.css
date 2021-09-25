@@ -17,15 +17,28 @@ ul{
   width: 200px;
 }
 /*////////////////////////// CLASS COLOR /////////////////////*/
-.frame{
-  background-color:#;
+.frameBox{
+ box-sizing: content-box;
+ background-color: #345995;
+ width: 80%;
+ justify-items:center;
+ padding: 10%;
+ border: solid #EEE5E9;
 }
 .frameSection{
   background-color: ;
 }
+/*
 p{
   background-color: #345995;
-}
+}*/
 h1,h2{
   color: #CF5C36;
+  text-shadow: #EDB83D;
+}
+@media (any-hover: hover) {
+  a:hover {
+    background: #345995;
+    color: #EDB83D;
+  }
 }
