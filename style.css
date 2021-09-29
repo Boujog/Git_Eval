@@ -13,9 +13,6 @@ ul{
   list-style-position: outside;
   padding: 0%;
 }
-.pictureSize{
-  width: 200px;
-}
 /*////////////////////////// CLASS COLOR /////////////////////*/
 .frameBox{
  box-sizing: content-box;
@@ -28,17 +25,33 @@ ul{
 .frameSection{
   background-color: ;
 }
-/*
 p{
   background-color: #345995;
-}*/
+}
 h1,h2{
   color: #CF5C36;
   text-shadow: #EDB83D;
 }
+/*////////////////////// média query //////////////*/
 @media (any-hover: hover) {
   a:hover {
     background: #345995;
     color: #EDB83D;
   }
+}
+@media(min-width:200px) {
+  img {
+    width: 200px;
+  }
+  p {
+  font-size: 20px;
+  }
+}
+@media(min-width:500px) {
+  img {
+    width: 400px;
+  }
+  p {
+  font-size: 30px;
+}
 }
