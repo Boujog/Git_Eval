@@ -4,11 +4,7 @@ body{
   background-color: #000B29;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-li{
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
+
 ul{
   list-style-position: outside;
   padding: 0%;
@@ -22,9 +18,7 @@ ul{
  padding: 10%;
  border: solid #EEE5E9;
 }
-.frameSection{
-  background-color: ;
-}
+a{}
 p{
   background-color: #345995;
 }
@@ -34,10 +28,7 @@ h1,h2{
 }
 /*////////////////////// média query //////////////*/
 @media (any-hover: hover) {
-  a:hover {
-    background: #345995;
-    color: #EDB83D;
-  }
+
 }
 @media(min-width:200px) {
   img {
@@ -46,6 +37,15 @@ h1,h2{
   p {
   font-size: 20px;
   }
+  li{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  a:hover {
+    background: #345995;
+    color: #EDB83D;
+  }
 }
 @media(min-width:500px) {
   img {
@@ -53,5 +53,19 @@ h1,h2{
   }
   p {
   font-size: 30px;
-}
+  }
+  li{
+    display: inline-flex;
+    justify-content: ;
+  }
+  a:link{
+    color: yellow;
+  }
+  a:visited{
+    color: greenyellow;
+  }
+  a:active {
+    color: green;
+  }
+ 
 }
