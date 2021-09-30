@@ -4,7 +4,10 @@ body{
   background-color: #000B29;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+section{
+  margin: 10px;
+  padding: 5px;
+}
 ul{
   list-style-position: outside;
   padding: 0%;
@@ -17,10 +20,6 @@ ul{
  justify-items:center;
  padding: 10%;
  border: solid #EEE5E9;
-}
-a{}
-p{
-  background-color: #345995;
 }
 h1,h2{
   color: #CF5C36;
