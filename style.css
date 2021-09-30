@@ -11,6 +11,10 @@ ul{
 img,article,section,p{
   max-width: 100%;
 }
+a:hover {
+  background: #345995;
+  color: #EDB83D;
+}
 /*////////////////////////// CLASS COLOR /////////////////////*/
 .frameBox{
  box-sizing: content-box;
@@ -41,10 +45,10 @@ h1,h2{
     justify-content: center;
     margin: 10px;
   }
-  a:hover {
-    background: #345995;
-    color: #EDB83D;
+  a:visited{
+    color: #Ff0034;
   }
+
 }
 @media(min-width:768px) {
   img {
