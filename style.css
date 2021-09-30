@@ -4,21 +4,20 @@ body{
   background-color: #000B29;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-section{
-  margin: 10px;
-  padding: 5px;
-}
 ul{
   list-style-position: outside;
   padding: 0%;
+}
+img,article,section,p{
+  max-width: 100%;
 }
 /*////////////////////////// CLASS COLOR /////////////////////*/
 .frameBox{
  box-sizing: content-box;
  background-color: #345995;
- width: 80%;
- justify-items:center;
- padding: 10%;
+ width: 70%;
+ padding: 10px;
+ margin: auto;
  border: solid #EEE5E9;
 }
 h1,h2{
@@ -29,9 +28,10 @@ h1,h2{
 @media (any-hover: hover) {
 
 }
-@media(min-width:200px) {
+@media(min-width:320px) {
   img {
     width: 200px;
+    max-width: 100%;
   }
   p {
   font-size: 20px;
@@ -46,16 +46,18 @@ h1,h2{
     color: #EDB83D;
   }
 }
-@media(min-width:500px) {
+@media(min-width:768px) {
   img {
     width: 400px;
+  }
+  h1,h2,h3{
+    font-size: 40px;
   }
   p {
   font-size: 30px;
   }
   li{
     display: inline-flex;
-    justify-content: ;
   }
   a:link{
     color: yellow;
@@ -63,8 +65,4 @@ h1,h2{
   a:visited{
     color: greenyellow;
   }
-  a:active {
-    color: green;
-  }
- 
 }
