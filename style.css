@@ -15,6 +15,9 @@ a:hover {
   background: #345995;
   color: #EDB83D;
 }
+a:visited{
+  color: greenyellow;
+}
 /*////////////////////////// CLASS COLOR /////////////////////*/
 .frameBox{
  box-sizing: content-box;
@@ -45,11 +48,16 @@ h1,h2{
     justify-content: center;
     margin: 10px;
   }
-  a:visited{
-    color: #Ff0034;
-  }
   body{
     font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  #buttonUp{
+    position:fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+    background: #Ff0034;
   }
 
 }
@@ -71,8 +79,5 @@ h1,h2{
   }
   a:link{
     color: yellow;
-  }
-  a:visited{
-    color: greenyellow;
   }
 }
