@@ -14,12 +14,13 @@ section>ul>li{
 img,article,section,p{
   max-width: 100%;
 }
-a:hover {
-  background: #345995;
-  color: #EDB83D;
-}
+/*//////////////////// link design ///////////////////*/
 a:link{
-
+color: #EDB83D;
+}
+a:hover {
+  background: #CF5C36;
+  color: black;
 }
 a:visited{
   color: greenyellow;
@@ -37,10 +38,7 @@ h1,h2{
   color: #CF5C36;
   text-shadow: #EDB83D;
 }
-/*////////////////////// média query //////////////*/
-@media (any-hover: hover) {
-
-}
+/*////////////////////// média responsive for smart //////////////*/
 @media(min-width:320px) {
   .imgSmart {
     width: 200px;
@@ -67,7 +65,7 @@ h1,h2{
   }
 
 }
-/*/////////////////////// média responsive  ////////////////*/
+/*/////////////////////// média responsive for large  ////////////////*/
 @media(min-width:768px) {
   .imgBig{
     width: 400px;
@@ -80,9 +78,6 @@ h1,h2{
   }
   p {
   font-size: 30px;
-  }
-  a:link{
-    color: yellow;
   }
   contact{
     display: inline-flex;
