@@ -2,8 +2,8 @@ body{
   text-align: center;
   color: #EDB83D;
   background-color: #000B29;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+ 
 ul{
   list-style-position: outside;
   padding: 0%;
@@ -48,12 +48,18 @@ h1,h2{
   a:visited{
     color: #Ff0034;
   }
+  body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
 
 }
 @media(min-width:768px) {
   img {
     width: 400px;
   }
+  body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
   h1,h2,h3{
     font-size: 40px;
   }
