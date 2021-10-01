@@ -8,6 +8,9 @@ ul{
   list-style-position: outside;
   padding: 0%;
 }
+section>ul>li{
+  display: inline;
+}
 img,article,section,p{
   max-width: 100%;
 }
@@ -51,9 +54,6 @@ h1,h2{
     justify-content: center;
     margin: 10px;
   }
-  .liContact{
-    display: ;
-  }
   body{
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
@@ -67,6 +67,7 @@ h1,h2{
   }
 
 }
+/*/////////////////////// média responsive  ////////////////*/
 @media(min-width:768px) {
   .imgBig{
     width: 400px;
