@@ -3,7 +3,6 @@ body{
   color: #EDB83D;
   background-color: #000B29;
 }
- 
 ul{
   list-style-position: outside;
   padding: 0%;
@@ -13,6 +12,9 @@ section>ul>li{
 }
 img,article,section,p{
   max-width: 100%;
+}
+h1,h2{
+  color: #CF5C36;
 }
 /*//////////////////// link design ///////////////////*/
 a:link {
@@ -31,8 +33,6 @@ a:focus {
 a:active {
   color: #Ff0034;
 }
-
-
 /*////////////////////////// CLASS COLOR /////////////////////*/
 .frameBox{
  box-sizing: content-box;
@@ -41,10 +41,6 @@ a:active {
  padding: 10px;
  margin: auto;
  border: solid #EEE5E9;
-}
-h1,h2{
-  color: #CF5C36;
-  text-shadow: #EDB83D;
 }
 /*////////////////////// média responsive for smart //////////////*/
 @media(min-width:320px) {
@@ -71,7 +67,6 @@ h1,h2{
     right: 30px;
     background: #Ff0034;
   }
-
 }
 /*/////////////////////// média responsive for large  ////////////////*/
 @media(min-width:768px) {
@@ -80,7 +75,7 @@ h1,h2{
   }
   body{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+  }
   h1,h2,h3{
     font-size: 40px;
   }
