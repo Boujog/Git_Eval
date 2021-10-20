@@ -16,6 +16,17 @@ img,article,section,p{
 h1,h2{
   color: #CF5C36;
 }
+#buttonUp{
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+  background: #Ff0034;
+}
+.liContact {
+  
+}
 /*//////////////////// link design ///////////////////*/
 a:link {
 color: #EDB83D;
@@ -59,14 +70,7 @@ a:active {
   body{
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
-  #buttonUp{
-    position:fixed;
-    width: 25px;
-    height: 25px;
-    bottom: 50px;
-    right: 30px;
-    background: #Ff0034;
-  }
+
 }
 /*/////////////////////// média responsive for large  ////////////////*/
 @media(min-width:768px) {
