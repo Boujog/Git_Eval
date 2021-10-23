@@ -24,9 +24,6 @@ h1,h2{
   right: 30px;
   background: #Ff0034;
 }
-.liContact {
-
-}
 /*//////////////////// link design ///////////////////*/
 a:link {
 color: #EDB83D;
@@ -70,7 +67,6 @@ a:active {
   body{
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
-
 }
 /*/////////////////////// média responsive for large  ////////////////*/
 @media(min-width:768px) {
